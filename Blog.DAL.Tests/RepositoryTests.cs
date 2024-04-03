@@ -17,6 +17,7 @@ namespace Blog.DAL.Tests
         [TestMethod]
         public void GetAllPost_OnePostInDb_ReturnOnePost()
         {
+            // Sample comment
             // arrange
             var context = new BlogContext();
             context.Database.CreateIfNotExists();
